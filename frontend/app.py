@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 import plotly.express as px
 
-API_URL = "http://127.0.0.1:8001/import/csv"
+API_URL = "https://shared-expense-app-ttsf.onrender.com/import/csv"
 
 st.set_page_config(
     page_title="ExpenseOS | SaaS Dashboard",
